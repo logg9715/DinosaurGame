@@ -144,4 +144,5 @@ public class GraphicsMainDraw extends JFrame {
 
 	}
 
+	// 왜 업데이트가 안되냐
 }

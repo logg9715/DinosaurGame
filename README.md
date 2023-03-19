@@ -3,7 +3,7 @@ Make a Dinosaur Game
 친구 사진을 따서 공룡게임을 만들어보자. 
 
 
-![run1_size](https://user-images.githubusercontent.com/127168700/226170886-724aa4a1-6f25-46c4-ab0e-5cbf20d6d9aa.png)
+![썸네일](https://user-images.githubusercontent.com/127168700/226170946-60cf09e7-7212-46ce-98b1-ac845329b5ff.png)
 
 
 # 개발 현황

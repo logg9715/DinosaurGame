@@ -1,6 +1,6 @@
 # DinosaurGame
 Make a Dinosaur Game
-친구 사진을 따서 공룡게임을 만들어보자. 
+공룡 없는 공룡게임을 만들어보자. 
 
 
 ![썸네일](https://user-images.githubusercontent.com/127168700/226170946-60cf09e7-7212-46ce-98b1-ac845329b5ff.png)

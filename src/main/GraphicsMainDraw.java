@@ -32,12 +32,14 @@ public class GraphicsMainDraw extends JFrame {
 	private Image bufferImage;
 	private Graphics screenGraphic;
 
+	
+	
 	// 플레이어 변수
 	private int playerX = Define.RUNLOCATION, playerY = Define.GROUND, playerAction = 1; // 좌표 (초기좌표)
 	private int playerSizeX = 50, playerSizeY = 50;
-	private ImageIcon playerIcon0 = new ImageIcon("images/run0.png"); // 아이콘 불러오기
-	private ImageIcon playerIcon1 = new ImageIcon("images/run1.png"); // 아이콘 불러오기
-	private ImageIcon playerIcon2 = new ImageIcon("images/run2.png"); // 아이콘 불러오기
+	private ImageIcon playerIcon0 = new ImageIcon(getClass().getClassLoader().getResource("run0.png")); // 아이콘 불러오기
+	private ImageIcon playerIcon1 = new ImageIcon(getClass().getClassLoader().getResource("run1.png")); // 아이콘 불러오기
+	private ImageIcon playerIcon2 = new ImageIcon(getClass().getClassLoader().getResource("run2.png")); // 아이콘 불러오기
 	private Image playerImg = playerIcon1.getImage(); // 이미지 지정
 	private boolean hit = false, retry = false;
 
@@ -46,20 +48,20 @@ public class GraphicsMainDraw extends JFrame {
 	private int vt = 0, vf = 0;
 
 	// 바닥 변수
-	private ImageIcon groundIcon = new ImageIcon("images/floor.png"); // 아이콘 불러오기
+	private ImageIcon groundIcon = new ImageIcon(getClass().getClassLoader().getResource("floor.png")); // 아이콘 불러오기
 	private Image groundImg = groundIcon.getImage(); // 이미지 지정
 
 	// 구름 변수
-	private ImageIcon cloudIcon = new ImageIcon("images/cloud_cut.png"); // 아이콘 불러오기
+	private ImageIcon cloudIcon = new ImageIcon(getClass().getClassLoader().getResource("cloud_cut.png")); // 아이콘 불러오기
 	private Image cloudImg = cloudIcon.getImage(); // 이미지 지정
 	private ArrayList<cloud> cloudList = new ArrayList<>();
 
 	// 선인장 변수
-	private ImageIcon cactusIcon1 = new ImageIcon("images/g1.png"); // 아이콘 불러오기
-	private ImageIcon cactusIcon2 = new ImageIcon("images/g2.png"); // 아이콘 불러오기
-	private ImageIcon cactusIcon3 = new ImageIcon("images/g3.png"); // 아이콘 불러오기
-	private ImageIcon cactusIcon4 = new ImageIcon("images/g4.png"); // 아이콘 불러오기
-	private ImageIcon cactusIcon5 = new ImageIcon("images/bird.png"); // 아이콘 불러오기
+	private ImageIcon cactusIcon1 = new ImageIcon(getClass().getClassLoader().getResource("g1.png")); // 아이콘 불러오기
+	private ImageIcon cactusIcon2 = new ImageIcon(getClass().getClassLoader().getResource("g2.png")); // 아이콘 불러오기
+	private ImageIcon cactusIcon3 = new ImageIcon(getClass().getClassLoader().getResource("g3.png")); // 아이콘 불러오기
+	private ImageIcon cactusIcon4 = new ImageIcon(getClass().getClassLoader().getResource("g4.png")); // 아이콘 불러오기
+	private ImageIcon cactusIcon5 = new ImageIcon(getClass().getClassLoader().getResource("bird.png")); // 아이콘 불러오기
 	private ArrayList<cactus> cactusList = new ArrayList<>();
 	private cactus c1 = new cactus();
 

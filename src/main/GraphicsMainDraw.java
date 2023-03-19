@@ -463,7 +463,7 @@ public class GraphicsMainDraw extends JFrame {
 	public void checkProcess() {
 		for (int i = 0; i < cactusList.size(); i++) {
 			c1 = cactusList.get(i);
-			if (playerX + playerSizeX - 7 > c1.getX() + 5 && playerX + 7 < c1.getX() + c1.getSizeX() - 8
+			if (playerX + playerSizeX - 7 > c1.getX() + 10 && playerX + 7 < c1.getX() + c1.getSizeX() - 8
 					&& playerY + playerSizeY > c1.getY() + 4 && playerY +4 + downChecker() < c1.getY() + c1.getSizeY()) {
 				hit = true;
 			}

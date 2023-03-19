@@ -133,6 +133,7 @@ public class GraphicsMainDraw extends JFrame {
 
 			GenerateProcess(); // 유닛 생성 프로세스
 			MoveProcess(); // 유닛 이동 프로세스
+			keyProcess(); // 플레이어 이동&공격 프로세스
 			removeProcess();
 			checkProcess();
 
@@ -149,7 +150,7 @@ public class GraphicsMainDraw extends JFrame {
 			counter++;
 
 			GenerateProcess(); // 유닛 생성 프로세스
-			keyProcess(); // 플레이어 이동&공격 프로세스
+			keyProcess(); // 플레이어 이동
 			MoveProcess(); // 유닛 이동 프로세스
 			checkProcess();
 			removeProcess();
@@ -188,7 +189,7 @@ public class GraphicsMainDraw extends JFrame {
 		playerY = Define.GROUND;
 
 		// 시작 점프
-		vf = 9;
+		vf = 1;
 		vt = 0;
 
 		// 시간(점수) 초기화
@@ -463,7 +464,7 @@ public class GraphicsMainDraw extends JFrame {
 		for (int i = 0; i < cactusList.size(); i++) {
 			c1 = cactusList.get(i);
 			if (playerX + playerSizeX - 7 > c1.getX() + 5 && playerX + 7 < c1.getX() + c1.getSizeX() - 8
-					&& playerY + playerSizeY > c1.getY() + 4 && playerY + downChecker() < c1.getY() + c1.getSizeX()) {
+					&& playerY + playerSizeY > c1.getY() + 4 && playerY +4 + downChecker() < c1.getY() + c1.getSizeY()) {
 				hit = true;
 			}
 		}

@@ -2,6 +2,9 @@
 Make a Dinosaur Game<br>
 공룡 없는 공룡게임을 만들어보자. 
 
+[다운로드](dino.jar)
+
+
 ![썸네일](https://user-images.githubusercontent.com/127168700/226173415-79f39dee-567f-4fb5-a7f8-d880ad912b16.png)
 
 

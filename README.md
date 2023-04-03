@@ -7,6 +7,7 @@ Make a Dinosaur Game<br>
 
 ![썸네일](https://user-images.githubusercontent.com/127168700/226173415-79f39dee-567f-4fb5-a7f8-d880ad912b16.png)
 
+실행환경 : java se 17.0.5
 
  낮은 jdk 버젼에서는 내부 클래스에서의 static 변수를 못 쓰는 경우가 있음. 그 경우에는 [수정버젼](GraphicsMainDraw(jdkEditVer).java)을 받아 기존 프로젝트에 붙여넣기 한다. 
 

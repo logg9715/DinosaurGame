@@ -1,6 +1,6 @@
 # DinosaurGame
 Make a Dinosaur Game<br>
-공룡 없는 공룡게임을 만들어보자. 
+크롬 공룡게임을 만들어보자. 
 
 [소스](https://github.com/logg9715/DinosaurGame/tree/master0319)
 

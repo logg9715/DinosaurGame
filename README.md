@@ -2,7 +2,7 @@
 Make a Dinosaur Game<br>
 공룡 없는 공룡게임을 만들어보자. 
 
-[소스](https://github.com/logg9715/DinosaurGame.git)
+[소스](https://github.com/logg9715/DinosaurGame/tree/master0319)
 
 
 ![썸네일](https://user-images.githubusercontent.com/127168700/226173415-79f39dee-567f-4fb5-a7f8-d880ad912b16.png)

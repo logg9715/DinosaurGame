@@ -4,8 +4,7 @@ Make a Dinosaur Game<br>
 
 [소스](https://github.com/logg9715/DinosaurGame/tree/master0319)
 
-
-![image](https://user-images.githubusercontent.com/127168700/236478084-61bd53ce-e362-4872-af0f-b80ecff89a63.png)
+![캡처](https://user-images.githubusercontent.com/127168700/236478393-ac6cf84a-9cd0-46ad-991c-b679218b648d.PNG)
 
 실행환경 : java se 17.0.5
 

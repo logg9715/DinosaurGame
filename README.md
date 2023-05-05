@@ -9,7 +9,7 @@ Make a Dinosaur Game<br>
 
 실행환경 : java se 17.0.5
 
- 낮은 jdk 버젼에서는 내부 클래스에서의 static 변수를 못 쓰는 경우 : [수정버젼](GraphicsMainDraw(jdkEditVer).java)을 받아 기존 소스파일 대체. 
+ 낮은 jdk 버젼에서, 내부 클래스에서 static 변수를 못 쓰는 경우 : [수정버젼](GraphicsMainDraw(jdkEditVer).java)을 받아 기존 소스파일 대체. 
 
 
 # 개발 현황

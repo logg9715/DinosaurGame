@@ -1,6 +1,8 @@
 # DinosaurGame
 Make a Dinosaur Game<br>
 크롬 공룡게임을 만들어보자. 
+플레이 파일 다운로드: [dino.zip](https://github.com/logg9715/DinosaurGame/files/12194366/dino.zip)
+
 
 [소스](https://github.com/logg9715/DinosaurGame/tree/master0319)
 
